@@ -7,15 +7,33 @@ body {
 
 h1, h2 {
   font-family: 'Worksans', sans-serif;
+  text-align: center;
 }
 
 img {
   size: 200px;
 }
 .profiles {
-  column-count: 1;
+  column-count: 4;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+}
+.wrap {
+  width: 1060px;
+  height:auto;
+  margin: auto;
+  text-align:center;
+  position:relative;
+}
+.text_over_image {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  color:#fff;
+  height:100px;
 }
