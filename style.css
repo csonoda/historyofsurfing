@@ -1,0 +1,21 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin: 10px 50px 10px 50px;
+  background-image: url("https://i0.heartyhosting.com/www.surfer.com/wp-content/uploads/2019/12/greg-long.jpg?resize=1920%2C1080&ssl=1");
+}
+
+h1, h2 {
+  font-family: 'Worksans', sans-serif;
+}
+
+img {
+  size: 200px;
+}
+.profiles {
+  column-count: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
